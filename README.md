@@ -4,8 +4,6 @@ This is a [ZMK Module](https://zmk.dev/docs/features/modules) for my [Re-gret ke
 
 To use this in your zmk-config, follow the [ZMK Module docs](https://zmk.dev/docs/features/modules) using the config below. You'll name your keymap `re-gret.keymap`.
 
-![Re-gret Bluetooth Mode](images/IMG_0805.jpeg)
-
 ## Usage
 
 Add the following entries to `remotes` and `projects` in `config/west.yml`
