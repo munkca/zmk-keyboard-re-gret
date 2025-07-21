@@ -109,7 +109,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &mt LEFT_GUI A  &mt LEFT_ALT O  &mt LEFT_SHIFT E  &mt LCTRL U  &kp I  &kp D  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &mt LEFT_ALT N  &mt LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt NAV_L SPACE  &lt 4 TAB  &lt 3 BACKSPACE  &lt SYM_L ENTER
+&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LCTRL U  &kp I  &kp D  &hm LEFT_CONTROL H  &hm LEFT_SHIFT T  &hm LEFT_ALT N  &hm LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt NAV_L SPACE  &lt 4 TAB  &lt 3 BACKSPACE  &lt SYM_L ENTER
             >;
         };
 
@@ -130,7 +130,7 @@
         num_layer {
             display-name = "Number";
             bindings = <
-&kp ASTERISK  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS  &kp TILDE  &trans  &kp STAR  &trans  &kp SQT  &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp N6  &hm RSHFT N7  &hm RCMD N8  &hm RALT N9  &hm RCTRL N0  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &kp BSPC  &kp COMMA  &kp PERIOD  &trans  &trans  &trans  &trans  &trans
+&kp ASTERISK  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS  &kp TILDE  &trans  &kp STAR  &trans  &kp SQT  &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &hm RSHFT N7  &hm RCMD N8  &hm RALT N9  &hm RCTRL N0  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &kp BSPC  &kp COMMA  &kp PERIOD  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
