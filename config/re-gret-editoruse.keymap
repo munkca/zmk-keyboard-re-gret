@@ -109,14 +109,14 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LCTRL U  &kp I  &kp D  &hm LEFT_CONTROL H  &hm LEFT_SHIFT T  &hm LEFT_ALT N  &hm LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt NAV_L SPACE  &lt 4 TAB  &lt 3 BACKSPACE  &lt SYM_L ENTER
+&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LCTRL U  &kp I  &kp D  &hm LEFT_CONTROL H  &hm LEFT_SHIFT T  &hm LEFT_ALT N  &hm LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt NAV_L SPACE  &lt 4 TAB  &lt 3 BACKSPACE  &lt 1 ENTER
             >;
         };
 
         sym_layer {
             display-name = "Symbol";
             bindings = <
-&kp SEMI  &kp HASH  &kp PRCNT  &kp AT  &kp PLUS  &kp TILDE  &trans  &kp STAR  &trans  &kp GRAVE  &kp COLON  &kp EXCL  &kp EQUAL  &kp UNDER  &kp PIPE  &kp BSLH  &sk RSHFT  &sk RCMD  &sk RALT  &sk RCTRL  &kp AMPS  &kp CARET  &kp DLLR  &kp MINUS  &trans  &trans  &kp FSLH  &kp LT  &kp GT  &trans  &trans  &trans  &trans  &trans
+&kp SEMI  &kp HASH  &kp PRCNT  &kp AT  &kp PLUS  &kp TILDE  &trans  &kp STAR  &trans  &kp GRAVE  &kp COLON  &kp EXCL  &kp EQUAL  &kp UNDER  &kp PIPE  &kp BSLH  &sk RCTRL  &sk LEFT_SHIFT  &sk LALT  &sk LEFT_GUI  &kp AMPS  &kp CARET  &kp DLLR  &kp MINUS  &trans  &trans  &kp FSLH  &kp LT  &kp GT  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -137,7 +137,7 @@
         system_layer {
             display-name = "System";
             bindings = <
-&bootloader  &studio_unlock  &none  &none  &none  &rgb_ug RGB_TOG  &none  &none  &none  &none  &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT  &none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none  &bt BT_CLR  &none  &none  &none  &none  &none  &kp C_PP  &none  &none  &none  &trans  &trans  &trans  &trans
+&bootloader  &studio_unlock  &none  &none  &none  &rgb_ug RGB_TOG  &none  &none  &none  &none  &kp LEFT_GUI  &kp LALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none  &bt BT_CLR  &none  &none  &none  &none  &none  &kp C_PP  &none  &none  &none  &trans  &trans  &trans  &trans
             >;
         };
     };
