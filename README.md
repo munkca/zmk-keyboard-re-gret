@@ -1,3 +1,5 @@
+Thanks, rschenk. I am attempting to learn how to use both github and zmk at the same time, and figured it must be easier to attain success by copying and modifying something that already works. I intend to modify this with a Dvorak/Miryoku-style layout similar to what I have on my other Hillside QMK keyboard.
+
 # Re-gret ZMK Module
 
 This is a [ZMK Module](https://zmk.dev/docs/features/modules) for my [Re-gret keyboard](https://github.com/rschenk/re-gret).
