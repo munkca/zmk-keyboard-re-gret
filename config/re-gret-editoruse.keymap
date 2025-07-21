@@ -117,14 +117,14 @@
         sym_layer {
             display-name = "Symbol";
             bindings = <
-&kp SEMI  &kp HASH  &kp PRCNT  &kp AT  &kp PLUS  &kp TILDE  &trans  &kp STAR  &trans  &kp GRAVE  &kp COLON  &kp EXCL  &kp EQUAL  &kp UNDER  &kp PIPE  &kp BSLH  &sk RCTRL  &sk LEFT_SHIFT  &sk LALT  &sk LEFT_GUI  &kp AMPS  &kp CARET  &kp DLLR  &kp MINUS  &trans  &trans  &kp FSLH  &kp LT  &kp GT  &trans  &trans  &trans  &trans  &trans
+&kp SEMI  &kp HASH  &kp PRCNT  &kp AT  &kp PLUS  &kp TILDE  &kp LESS_THAN  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON  &kp EXCL  &kp EQUAL  &kp UNDER  &kp PIPE  &kp BSLH  &sk RCTRL  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS  &kp CARET  &kp DLLR  &kp MINUS  &trans  &trans  &kp FSLH  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans
             >;
         };
 
         nav_layer {
             display-name = "Nav";
             bindings = <
-&trans  &trans  &trans  &trans  &kp TAB  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &sk LALT  &sk LCMD  &sk LSHFT  &kp BSPC  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp RET  &kp RET  &kp BSPC  &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp TAB  &trans  &trans  &kp UP_ARROW  &trans  &trans  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp BSPC  &kp LEFT  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp RET  &kp RET  &kp BSPC  &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
