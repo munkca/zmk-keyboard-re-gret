@@ -47,8 +47,6 @@
             require-prior-idle-ms = <COMBO_IDLE>;
         };
 
-        // Brackets and parens
-
         bksp {
             key-positions = <26 27>;
             bindings = <&kp BACKSPACE>;
