@@ -49,7 +49,7 @@
 
         // Brackets and parens
 
-        bks {
+        bksp {
             key-positions = <26 27>;
             bindings = <&kp BACKSPACE>;
             require-prior-idle-ms = <COMBO_IDLE>;
