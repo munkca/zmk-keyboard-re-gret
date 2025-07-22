@@ -117,7 +117,7 @@
         sym_layer {
             display-name = "Symbol";
             bindings = <
-&kp AT  &kp HASH  &kp PRCNT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &kp LESS_THAN  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans  &sk LEFT_SHIFT  &trans  &trans  &kp AMPS  &kp CARET  &kp DLLR  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp QUESTION  &kp FSLH  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT  &kp CARET  &kp AMPERSAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE  &trans  &trans  &trans  &trans  &kp GRAVE  &kp SLASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans  &sk LEFT_SHIFT  &trans  &trans  &kp AT  &kp HASH  &kp DLLR  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp QUESTION  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
