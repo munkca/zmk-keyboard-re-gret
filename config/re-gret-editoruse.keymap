@@ -42,64 +42,23 @@
             require-prior-idle-ms = <COMBO_IDLE>;
         };
 
-        ret {
-            key-positions = <6 7 8>;
-            bindings = <&kp RET>;
-        };
-
         esc {
             key-positions = <1 2>;
             bindings = <&kp ESC>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
 
-        bsp {
-            key-positions = <26 27>;
-            bindings = <&kp BSPC>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        semi {
+        del {
             key-positions = <27 28>;
-            bindings = <&kp SEMI>;
+            bindings = <&kp DEL>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
 
         // Brackets and parens
 
-        vlbkt {
-            key-positions = <1 11>;
-            bindings = <&kp LBKT>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        vlpar {
-            key-positions = <2 12>;
-            bindings = <&kp LPAR>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        vlbrc {
-            key-positions = <3 13>;
-            bindings = <&kp LBRC>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        vrbrc {
-            key-positions = <6 16>;
-            bindings = <&kp RBRC>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        vrpar {
-            key-positions = <7 17>;
-            bindings = <&kp RPAR>;
-            require-prior-idle-ms = <COMBO_IDLE>;
-        };
-
-        vrbkt {
-            key-positions = <8 18>;
-            bindings = <&kp RBKT>;
+        bks {
+            key-positions = <26 27>;
+            bindings = <&kp BACKSPACE>;
             require-prior-idle-ms = <COMBO_IDLE>;
         };
     };
