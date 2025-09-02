@@ -65,7 +65,14 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LCTRL U  &kp I  &kp D  &hm LEFT_CONTROL H  &hm LEFT_SHIFT T  &hm LEFT_ALT N  &hm LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt 2 BACKSPACE  &kp TAB  &lt 1 ENTER  &lt 3 SPACE
+&kp SQT  &kp COMMA  &kp PERIOD  &kp P  &kp Y  &kp F  &kp G  &kp C  &kp R  &kp L  &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LCTRL U  &kp I  &kp D  &hm LEFT_CONTROL H  &hm LEFT_SHIFT T  &hm LEFT_ALT N  &hm LEFT_GUI S  &kp SEMICOLON  &kp Q  &kp J  &kp K  &kp X  &kp B  &kp M  &kp W  &kp V  &kp Z  &lt 3 BACKSPACE  &mo 2  &mo 1  &kp SPACE
+            >;
+        };
+
+        num_layer {
+            display-name = "Number";
+            bindings = <
+&kp ASTERISK  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS  &kp TILDE  &trans  &trans  &trans  &trans  &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &kp PERIOD  &none  &none  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -80,13 +87,6 @@
             display-name = "Nav";
             bindings = <
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp TAB  &trans  &trans  &kp UP_ARROW  &kp PG_UP  &trans  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &kp HOME  &kp END  &kp PG_DN  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        num_layer {
-            display-name = "Number";
-            bindings = <
-&kp ASTERISK  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS  &kp TILDE  &trans  &trans  &trans  &trans  &kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans  &trans  &kp PERIOD  &none  &none  &trans  &trans  &trans  &trans
             >;
         };
 
