@@ -98,6 +98,12 @@
             key-positions = <28 29>;
             layers = <1 2>;
         };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
     };
 
     keymap {
