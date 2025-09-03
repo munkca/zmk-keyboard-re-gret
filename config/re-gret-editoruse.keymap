@@ -102,6 +102,7 @@
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <32 33>;
+            layers = <0>;
         };
     };
 
