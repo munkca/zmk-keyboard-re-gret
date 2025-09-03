@@ -104,6 +104,11 @@
             key-positions = <32 33>;
             layers = <0>;
         };
+
+        combo_shift {
+            bindings = <&sk LSHIFT>;
+            key-positions = <33 30>;
+        };
     };
 
     keymap {
