@@ -125,11 +125,6 @@
             layers = <0>;
         };
 
-        combo_shift {
-            bindings = <&sk LSHIFT>;
-            key-positions = <33 30>;
-        };
-
         combo_bksp_l {
             bindings = <&kp BACKSPACE>;
             key-positions = <23 22>;
