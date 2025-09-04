@@ -164,7 +164,7 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(TAB)  &kp PG_UP  &kp HOME  &kp UP_ARROW  &kp END  &trans  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp TAB  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(TAB)  &kp PG_UP  &kp HOME  &kp UP_ARROW  &kp END  &trans  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp TAB  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
