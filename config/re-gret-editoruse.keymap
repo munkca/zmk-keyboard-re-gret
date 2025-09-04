@@ -129,6 +129,12 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <23 22>;
         };
+
+        combo_caps-word {
+            bindings = <&caps_word>;
+            key-positions = <12 11>;
+            layers = <0>;
+        };
     };
 
     keymap {
