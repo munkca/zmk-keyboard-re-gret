@@ -39,10 +39,19 @@
             require-prior-idle-ms = <(-1)>;
         };
 
-        swapper: swapper {
-          compatible = "zmk,behavior-tri-state";
-          #binding-cells = <0>;
-          bindings = <&kp A>, <&kp B>, <&kt C>;
+        swap-mac: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+            ignored-key-positions = <12>;
+        };
+        swap-lnx: swapper {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPPER";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <12>;
         };
     };
 
