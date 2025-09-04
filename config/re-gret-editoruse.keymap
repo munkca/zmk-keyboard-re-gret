@@ -38,6 +38,12 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <(-1)>;
         };
+
+        swapper: swapper {
+          compatible = "zmk,behavior-tri-state";
+          #binding-cells = <0>;
+          bindings = <&kp A>, <&kp B>, <&kt C>;
+        };
     };
 
     conditional_layers {
