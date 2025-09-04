@@ -39,20 +39,14 @@
             require-prior-idle-ms = <(-1)>;
         };
 
-        swap-mac: swapperm {
+        swap-mac: swapper {
             compatible = "zmk,behavior-tri-state";
             label = "SWAPM";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
             ignored-key-positions = <12>;
         };
-        swap-lnx: swapperl {
-            compatible = "zmk,behavior-tri-state";
-            label = "SWAPL";
-            #binding-cells = <0>;
-            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-            ignored-key-positions = <12>;
-        };
+        
     };
 
     conditional_layers {
