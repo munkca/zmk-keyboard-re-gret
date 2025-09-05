@@ -44,9 +44,17 @@
             label = "SWAPM";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-
             ignored-key-positions = <12>;
         };
+
+        swapm: swapl {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPL";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <12>;
+        };
+
     };
 
     conditional_layers {
