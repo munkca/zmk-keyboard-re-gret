@@ -47,7 +47,7 @@
             ignored-key-positions = <12>;
         };
 
-        swapm: swapl {
+        swapl: swapl {
             compatible = "zmk,behavior-tri-state";
             label = "SWAPL";
             #binding-cells = <0>;
