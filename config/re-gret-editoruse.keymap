@@ -56,6 +56,25 @@
 
             ignored-key-positions = <12>;
         };
+
+        swapm2: swapm2 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPM2";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp GRAVE>, <&kt LGUI>;
+
+            ignored-key-positions = <12>;
+        };
+
+        swapl2: swapl2 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPL2";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp GRAVE>, <&kt LALT>;
+
+            ignored-key-positions = <12>;
+        };
+
     };
 
     conditional_layers {
