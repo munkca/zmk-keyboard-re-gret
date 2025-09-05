@@ -44,6 +44,7 @@
             label = "SWAPM";
             #binding-cells = <0>;
             bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
+
             ignored-key-positions = <12>;
         };
 
@@ -52,9 +53,27 @@
             label = "SWAPL";
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+
             ignored-key-positions = <12>;
         };
 
+        swapm2: swapm2 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPM2";
+            #binding-cells = <0>;
+            bindings = <&kt LGUI>, <&kp GRAVE>, <&kt LGUI>;
+
+            ignored-key-positions = <12>;
+        };
+
+        swapl2: swapl2 {
+            compatible = "zmk,behavior-tri-state";
+            label = "SWAPL2";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp GRAVE>, <&kt LALT>;
+
+            ignored-key-positions = <12>;
+        };
     };
 
     conditional_layers {
@@ -181,7 +200,7 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(TAB)  &kp PG_UP  &kp HOME  &kp UP_ARROW  &kp END  &none  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp TAB  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none  &none  &swapm  &none  &none  &none  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LS(TAB)  &kp PG_UP  &kp HOME  &kp UP_ARROW  &kp END  &none  &sk LEFT_GUI  &sk LALT  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &kp TAB  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none  &none  &swapm  &swapl  &swapm2  &swapl2  &trans  &trans  &trans  &trans
             >;
         };
 
