@@ -39,7 +39,7 @@
             require-prior-idle-ms = <(-1)>;
         };
 
-        swapm: swapper {
+        swapm: swapm {
             compatible = "zmk,behavior-tri-state";
             label = "SWAPM";
             #binding-cells = <0>;
