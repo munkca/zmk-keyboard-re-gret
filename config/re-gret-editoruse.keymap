@@ -164,6 +164,7 @@
         combo_bksp_l {
             bindings = <&kp BACKSPACE>;
             key-positions = <23 22>;
+            layers = <0>;
         };
 
         combo_caps-word {
