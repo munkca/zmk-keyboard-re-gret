@@ -1,0 +1,217 @@
+layout: {zmk_keyboard: re-gret-editoruse}
+layers:
+  Base:
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: Shift, h: Nav}
+  - Symbol
+  - Number
+  - ␣
+  Number:
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - /
+  - {t: LEFT CONTROL, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LEFT GUI, h: sticky}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - {t: ▽, type: trans}
+  - .
+  - '?'
+  - '!'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  Symbol:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '|'
+  - \
+  - <
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: Gui, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - {t: ▽, type: trans}
+  - /
+  - '~'
+  - '%'
+  - ^
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - '@'
+  - '#'
+  - $
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Nav:
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Win Prev
+  - Page Up
+  - Home
+  - UP ARROW
+  - End
+  - ''
+  - {t: LEFT GUI, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LEFT CONTROL, h: sticky}
+  - ↹
+  - Page Down
+  - ←
+  - ↓
+  - →
+  - ''
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - ''
+  - ''
+  - '&swapm'
+  - '&swapl'
+  - '&swapm2'
+  - '&swapl2'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  System:
+  - Boot
+  - ''
+  - BRI DN
+  - BRI UP
+  - ''
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - PLAY PAUSE
+  - MUTE
+  - Vol Down
+  - Vol Up
+  - Out USB
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - PRINTSCREEN
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - Out BLE
+  - ''
+  - Left Click
+  - Middle Click
+  - Right Click
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+combos:
+- p: [1, 2]
+  k: Esc
+  l: [Base]
+- p: [27, 28]
+  k: ⌦
+  l: [Base]
+- p: [26, 27]
+  k: BACKSPACE
+  l: [Base]
+- p: [21, 22]
+  k: CAPSLOCK
+  l: [Base]
+- p: [21, 20]
+  k: '{'
+  l: [Number, Symbol]
+- p: [22, 21]
+  k: '['
+  l: [Number, Symbol]
+- p: [22, 23]
+  k: (
+  l: [Number, Symbol]
+- p: [26, 27]
+  k: )
+  l: [Number, Symbol]
+- p: [27, 28]
+  k: ']'
+  l: [Number, Symbol]
+- p: [28, 29]
+  k: '}'
+  l: [Number, Symbol]
+- p: [32, 33]
+  k: ENTER
+  l: [Base]
+- p: [23, 22]
+  k: BACKSPACE
+  l: [Base]
+- p: [12, 11]
+  k: Caps Wrd
+  l: [Base]
