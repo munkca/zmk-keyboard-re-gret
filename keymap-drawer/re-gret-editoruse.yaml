@@ -3,7 +3,7 @@ layers:
   Base:
   - {t: '''', s: '"'}
   - {t: ',', s: <}
-  - PERIOD
+  - {t: ., s: '>'}
   - P
   - Y
   - F
@@ -62,7 +62,7 @@ layers:
   - '3'
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PERIOD
+  - {t: ., s: '>'}
   - '?'
   - '!'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
