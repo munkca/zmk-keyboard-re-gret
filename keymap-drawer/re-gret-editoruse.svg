@@ -616,16 +616,12 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(840, 130)" class="key keypos-18">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.75em">LEFT</tspan><tspan x="0" dy="1.0em">ALT</tspan>
-</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:apple-keyboard-option"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(920, 140)" class="key keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.75em">LEFT</tspan><tspan x="0" dy="1.0em">GUI</tspan>
-</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:apple-keyboard-command"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(40, 220)" class="key keypos-20">
@@ -934,9 +930,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(40, 140)" class="key keypos-10">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.75em">LEFT</tspan><tspan x="0" dy="1.0em">GUI</tspan>
-</text>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:apple-keyboard-command"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g transform="translate(120, 130)" class="key keypos-11">

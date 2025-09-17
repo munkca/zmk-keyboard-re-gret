@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - {t: LEFT CONTROL, h: '$$mdi:gesture-tap-hold$$'}
   - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: LEFT ALT, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: LEFT GUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '0', s: )}
   - '1'
   - '2'
@@ -116,7 +116,7 @@ layers:
   - UP ARROW
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: LEFT GUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
   - {t: LEFT CONTROL, h: '$$mdi:gesture-tap-hold$$'}
