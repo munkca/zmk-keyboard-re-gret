@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: re-gret-editoruse}
 layers:
   Base:
-  - ''''
-  - ','
-  - .
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - PERIOD
   - P
   - Y
   - F
@@ -21,8 +21,8 @@ layers:
   - T
   - N
   - S
-  - ;
-  - Q
+  - {t: ;, s: ':'}
+  - ''
   - J
   - K
   - X
@@ -31,168 +31,168 @@ layers:
   - W
   - V
   - Z
-  - {t: Shift, h: Nav}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Nav}
   - Symbol
   - Number
-  - ␣
+  - $$mdi:keyboard-space$$
   Number:
-  - {t: ▽, type: trans}
-  - '7'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '7', s: '&'}
   - '8'
   - '9'
   - +
   - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - '4'
   - '5'
   - '6'
-  - '-'
-  - /
-  - {t: LEFT CONTROL, h: sticky}
-  - {t: LEFT SHIFT, h: sticky}
-  - {t: LEFT ALT, h: sticky}
-  - {t: LEFT GUI, h: sticky}
-  - '0'
+  - {t: '-', s: _}
+  - {t: /, s: '?'}
+  - {t: LEFT CONTROL, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LEFT ALT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LEFT GUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '0', s: )}
   - '1'
   - '2'
   - '3'
-  - '='
-  - {t: ▽, type: trans}
-  - .
+  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PERIOD
   - '?'
   - '!'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - \
+  - {t: \, s: '|'}
   - <
   - '>'
-  - {t: ▽, type: trans}
-  - {t: Gui, h: sticky}
-  - {t: Alt, h: sticky}
-  - {t: LSHIFT, h: sticky}
-  - {t: Ctrl, h: sticky}
-  - {t: ▽, type: trans}
-  - /
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - '~'
   - '%'
   - ^
   - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - '@'
   - '#'
   - $
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Nav:
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - Win Prev
-  - Page Up
-  - Home
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:transfer-up$$
+  - HOME
   - UP ARROW
-  - End
-  - ''
-  - {t: LEFT GUI, h: sticky}
-  - {t: Alt, h: sticky}
-  - {t: LEFT SHIFT, h: sticky}
-  - {t: LEFT CONTROL, h: sticky}
-  - ↹
-  - Page Down
-  - ←
-  - ↓
-  - →
-  - ''
+  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: LEFT GUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LEFT CONTROL, h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:transfer-down$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Z
   - Gui+X
   - Gui+C
   - Gui+V
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&swapm'
   - '&swapl'
   - '&swapm2'
   - '&swapl2'
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   System:
-  - Boot
-  - ''
-  - BRI DN
-  - BRI UP
-  - ''
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&msc SCRL_UP'
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_UP'
   - '&msc SCRL_RIGHT'
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
-  - MUTE
-  - Vol Down
-  - Vol Up
-  - Out USB
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - OUT USB
   - '&msc SCRL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - PRINTSCREEN
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - Out BLE
-  - ''
-  - Left Click
-  - Middle Click
-  - Right Click
-  - ''
-  - {t: ▽, type: trans}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - OUT BLE
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 2]
-  k: Esc
+  k: $$mdi:keyboard-esc$$
   l: [Base]
 - p: [27, 28]
-  k: ⌦
+  k: $$mdi:backspace-reverse-outline$$
   l: [Base]
 - p: [26, 27]
-  k: BACKSPACE
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Base]
 - p: [21, 22]
-  k: CAPSLOCK
+  k: $$mdi:apple-keyboard-caps$$
   l: [Base]
 - p: [21, 20]
   k: '{'
   l: [Number, Symbol]
 - p: [22, 21]
-  k: '['
+  k: {t: '[', s: '{'}
   l: [Number, Symbol]
 - p: [22, 23]
   k: (
@@ -201,17 +201,17 @@ combos:
   k: )
   l: [Number, Symbol]
 - p: [27, 28]
-  k: ']'
+  k: {t: ']', s: '}'}
   l: [Number, Symbol]
 - p: [28, 29]
   k: '}'
   l: [Number, Symbol]
 - p: [32, 33]
-  k: ENTER
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Base]
 - p: [23, 22]
-  k: BACKSPACE
+  k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Base]
 - p: [12, 11]
-  k: Caps Wrd
+  k: $$mdi:alpha-w-box$$
   l: [Base]
