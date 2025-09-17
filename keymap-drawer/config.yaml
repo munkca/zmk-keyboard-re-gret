@@ -284,9 +284,9 @@ parse_config:
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
     LGUI: $$mdi:apple-keyboard-command$$
-    LEFT_CTRL: $$mdi:apple-keyboard-control$$
+    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
     LEFT_ALT: $$mdi:apple-keyboard-option$$
-    LEFT_SHFT: $$mdi:apple-keyboard-shift$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
     LEFT_GUI: $$mdi:apple-keyboard-command$$
     
     RCTRL: $$mdi:apple-keyboard-control$$
