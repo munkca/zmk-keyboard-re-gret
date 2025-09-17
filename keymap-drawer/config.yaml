@@ -9,8 +9,11 @@ parse_config:
     
   
   raw_binding_map:
-    '&SlAppy': Win Next
-    '&SlApBack': Win Prev
+    '&swapm': Win Next Mac
+    '&swapm2': Win Prev Mac
+    '&swapl': Win Next
+    '&swapl2': Win Prev
+    
     '&num_word':
       tap: Num Word
       hold: '(3)'
@@ -595,10 +598,10 @@ draw_config:
         text-anchor: middle;
         paint-order: stroke;
         fill: var(--color--layer--text);
-        translate: 533px 126px;
+        translate: 493px 126px;
     }
     .layer-Fn text.label {
-        translate: 533px 126px;
+        translate: 493px 126px;
     }
 
 

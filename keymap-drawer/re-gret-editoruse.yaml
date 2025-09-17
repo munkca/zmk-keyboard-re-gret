@@ -132,10 +132,10 @@ layers:
   - Gui+V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&swapm'
-  - '&swapl'
-  - '&swapm2'
-  - '&swapl2'
+  - Win Next Mac
+  - Win Next
+  - Win Prev Mac
+  - Win Prev
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
