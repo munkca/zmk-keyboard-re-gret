@@ -113,7 +113,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:transfer-up$$
   - HOME
-  - UP ARROW
+  - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -147,9 +147,9 @@ layers:
   - $$mdi:brightness-5$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-move-up$$
-  - '&msc SCRL_LEFT'
+  - $$mdi:mouse-move-left$$
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
-  - '&msc SCRL_RIGHT'
+  - $$mdi:mouse-move-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
   - $$mdi:volume-off$$
@@ -168,7 +168,7 @@ layers:
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:cursor-default-click$$
-  - '&mkp MCLK'
+  - $$mdi:cursor-default-click-outline$$ $$mdi:cursor-default-click-outline$$
   - $$mdi:cursor-default-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
