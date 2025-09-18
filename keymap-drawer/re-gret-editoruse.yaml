@@ -146,17 +146,17 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-move-up$$
-  - $$mdi:mouse-move-left$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-left$$
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
-  - $$mdi:mouse-move-right$$
+  - $$mdi:pan-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - OUT USB
-  - $$mdi:mouse-move-down$$
+  - $$mdi:pan-down$$
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}

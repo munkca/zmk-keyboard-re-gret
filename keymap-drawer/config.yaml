@@ -10,10 +10,10 @@ parse_config:
     '&mkp LCLK': $$mdi:cursor-default-click$$
     '&mkp RCLK': $$mdi:cursor-default-click-outline$$
     '&mkp MCLK': $$mdi:cursor-default-click-outline$$ $$mdi:cursor-default-click-outline$$    
-    '&msc SCRL_UP': '$$mdi:mouse-move-up$$'
-    '&msc SCRL_DOWN': '$$mdi:mouse-move-down$$'
-    '&msc SCRL_LEFT': '$$mdi:mouse-move-left$$'
-    '&msc SCRL_RIGHT': '$$mdi:mouse-move-right$$'
+    '&msc SCRL_UP': '$$mdi:pan-up$$'
+    '&msc SCRL_DOWN': '$$mdi:pan-down$$'
+    '&msc SCRL_LEFT': '$$mdi:pan-left$$'
+    '&msc SCRL_RIGHT': '$$mdi:pan-right$$'
     '&mmv MOVE_LEFT':
       tap:     $$mdi:tortoise$$
       shifted: $$mdi:arrow-left$$
