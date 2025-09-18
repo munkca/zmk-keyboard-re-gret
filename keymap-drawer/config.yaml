@@ -9,7 +9,7 @@ parse_config:
   raw_binding_map:
     '&mkp LCLK': $$mdi:cursor-default-click$$
     '&mkp RCLK': $$mdi:cursor-default-click-outline$$
-    '&mkp MCLK': $$mdi:cursor-default-click-outline$$ $$mdi:cursor-default-click-outline$$    
+    '&mkp MCLK': $$mdi:mouse-scroll-wheel$$    
     '&msc SCRL_UP': '$$mdi:pan-up$$'
     '&msc SCRL_DOWN': '$$mdi:pan-down$$'
     '&msc SCRL_LEFT': '$$mdi:pan-left$$'

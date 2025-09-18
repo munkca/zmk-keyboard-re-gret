@@ -168,7 +168,7 @@ layers:
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:cursor-default-click$$
-  - $$mdi:cursor-default-click-outline$$ $$mdi:cursor-default-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:cursor-default-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
