@@ -7,6 +7,43 @@ parse_config:
 
   
   raw_binding_map:
+    '&mkp LCLK': $$mdi:cursor-default-click$$
+    '&mkp RCLK': $$mdi:cursor-default-click-outline$$
+    '&msc SCRL_UP': '$$mdi:mouse-move-up$$'
+    '&msc SCRL_DOWN': '$$mdi:mouse-move-down$$'
+    '&mmv MOVE_LEFT':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-left$$
+      type:    sym_by_sym
+    '&mmv MOVE_RIGHT':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-right$$
+      type:    sym_by_sym
+    '&mmv MOVE_UP':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-up$$
+      type:    sym_by_sym
+    '&mmv MOVE_DOWN':
+      tap:     $$mdi:tortoise$$
+      shifted: $$mdi:arrow-down$$
+      type:    sym_by_sym
+    '&fmmv MOVE_LEFT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-left$$
+      type:    sym_by_sym
+    '&fmmv MOVE_RIGHT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-right$$
+      type:    sym_by_sym
+    '&fmmv MOVE_UP':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-up$$
+      type:    sym_by_sym
+    '&fmmv MOVE_DOWN':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-down$$
+      type:    sym_by_sym  
+    
     '&swapm': Win Next Mac
     '&swapm2': Win Prev Mac
     '&swapl': Win Next

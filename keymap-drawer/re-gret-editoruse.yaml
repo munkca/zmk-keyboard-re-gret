@@ -146,9 +146,9 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&msc SCRL_UP'
+  - $$mdi:mouse-move-up$$
   - '&msc SCRL_LEFT'
-  - '&mmv MOVE_UP'
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
   - '&msc SCRL_RIGHT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PLAY PAUSE
@@ -156,10 +156,10 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - OUT USB
-  - '&msc SCRL_DOWN'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - $$mdi:mouse-move-down$$
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
   - PRINTSCREEN
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
@@ -167,9 +167,9 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp LCLK'
+  - $$mdi:cursor-default-click$$
   - '&mkp MCLK'
-  - '&mkp RCLK'
+  - $$mdi:cursor-default-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
